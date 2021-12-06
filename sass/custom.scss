@@ -1,0 +1,67 @@
+.carousel-item{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-item.active {
+    height:100vh;
+}
+
+iframe{
+    position: relative;
+    width: 100%;
+    top: 0;
+    height: auto;
+    padding-top: 2%;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.form-control{
+    width: 100%;
+    //background-image: linear-gradient(to right, red,yellow);
+    color: rgb(197, 45, 45);
+    
+}
+
+$input-placeholder-color: rgb(255, 255, 255);
+
+@font-face{
+    src: url(./fuente/windsor_regular.ttf);
+    font-family: windsor;
+}
+
+.body{
+    font-family: windsor;
+}
+
+.h1,h2,h3,h4,h5{
+    font-family: windsor;
+}
+
+.p{
+    font-family: windsor;
+}
+
+.lead{
+    font-family: windsor;
+}
+
+.a{
+    font-family: windsor;
+}
+
+.nav-link{
+    font-family: windsor;
+    font-size: 1.1em;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
